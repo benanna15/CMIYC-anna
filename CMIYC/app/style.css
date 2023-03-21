@@ -5,7 +5,8 @@ body{
 }
 
 .home-page{
-    margin: 50px 80px;
+    margin: 50px auto;
+    max-width: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,9 +62,11 @@ body{
 
   .game-div{
    position: relative;
+   margin-right: 20px;
     margin-top: 50px;
     height: 555px;
     width: 900px;
+    flex-grow: 1;
     border-radius: 15px;
     color: #fff6fb;
     letter-spacing: 0.3em;
@@ -99,7 +102,7 @@ body{
   .side-bar{
   
     margin-top: 50px;
-    
+    margin-left: 20px;
     height: 555px;
     width: 300px;
     
